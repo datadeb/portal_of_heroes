@@ -1,10 +1,458 @@
 [
 {
+    "name" : "5Lion",
     "score" : 5,
     "condition" : {
-        "general" : [8,8,8,8]
+        "type" : "general",
+        "body" : [8,8,8,8]
     }
 },
-{}
+{
+    "name" : "4Fairy1",
+    "score" : 4,
+    "condition" : {
+        "type" : "general",
+        "body" : [8,8,8,8]
+    }
+},
+{
+    "name" : "4Fairy2",
+    "score" : 4,
+    "condition" : {
+        "type" : "general",
+        "body" : [8,8,8,8]
+    }
+},
+{
+    "name" : "3Pirate",
+    "score" : 3,
+    "condition" : {
+        "type": "generalwithDia",
+        "body" : [2,2,2]
+    }
+},
+{
+    "name" : "3Giant1",
+    "score" : 3,
+    "condition" : {
+        "type" : "general",
+        "body" : [6,6,8,8]
+    }
+},
+{
+    "name" : "3Giant2",
+    "score" : 3,
+    "condition" : {
+        "type" : "general",
+        "body" : [6,6,8,8]
+    }
+},
+{
+    "name" : "3Giant3",
+    "score" : 3,
+    "condition" : {
+        "type" : "general",
+        "body" : [6,6,8,8]
+    }
+},
+{
+    "name" : "3Groot",
+    "score" : 3,
+    "condition" : {
+        "type" : "equalcards",
+        "body" :  4
+    }
+},
+{
+    "name" : "3humpty",
+    "score" : 3,
+    "bonus_dia" : 1,
+    "condition" : {
+        "type" : "general",
+        "body" : [7,7,8,8]
+    }
+},
+{
+    "name" : "3dumpty",
+    "score" : 3,
+    "bonus_dia" : 1,
+    "condition" : {
+        "type" : "general",
+        "body" : [7,7,8,8]
+    }
+},
+{
+    "name" : "3firefly1",
+    "score" : 3,
+    "condition" : {
+        "type" : "or",
+        "body" : [ 
+            {"type" : "general",
+            "body" : [3,3,3]},
+            {"type" : "general",
+            "body" : [6,6,6]}
+        ]
+    }
+},
+{
+    "name" : "3firefly2",
+    "score" : 3,
+    "condition" : {
+        "type" : "or",
+        "body" : [ 
+            {"type" : "general",
+            "body" : [4,4,4]},
+            {"type" : "general",
+            "body" : [5,5,5]}
+        ]
+    }
+},
+{
+    "name" : "2twins1",
+    "score" : 2,
+    "condition" : {
+        "type" : "general",
+        "body" : [8,8]
+    }
+},
+{
+    "name" : "2twins2",
+    "score" : 2,
+    "condition" : {
+        "type" : "general",
+        "body" :  [8,8]
+    }
+},
+{
+    "name" : "2fluffy1",
+    "score" : 2,
+    "condition" : {
+        "type" : "equalcards",
+        "body" : 3
+    }
+},
+{
+    "name" : "2fluffy2",
+    "score" : 2,
+    "condition" : {
+        "type" : "equalcards",
+        "body" : 3
+    }
+},
+{
+    "name" : "2barbarian",
+    "score" : 2,
+    "condition" : {
+        "type" : "three_sums_up",
+        "body" : 20
+    }
+},
 
+{
+    "name" : "2dwarf1",
+    "score" : 2,
+    "bonus_dia" : 1,
+    "condition" : {
+        "type" : "and",
+        "body" : [ 
+            {"type" : "equalcards",
+            "body" : 2},
+            {"type" : "general",
+            "body" : [6,6]}
+        ]
+    }
+},
+{
+    "name" : "2dwarf2",
+    "score" : 2,
+    "bonus_dia" : 1,
+    "condition" : {
+        "type" : "and",
+        "body" : [ 
+            {"type" : "equalcards",
+            "body" : 2},
+            {"type" : "general",
+            "body" : [6,6]}
+        ]
+    }
+},
+{
+    "name" : "2golem1",
+    "score" : 2,
+    "condition" : {
+        "type" : "general",
+        "body" : [2,4,6,8]
+    },
+    "immediate_additional_action" : 3
+},
+{
+    "name" : "2golem2",
+    "score" : 2,
+    "condition" : {
+        "type" : "general",
+        "body" : [1,3,5,7]
+    },
+    "immediate_additional_action" : 3
+},
+{
+    "name" : "2demon",
+    "score" : 2,
+    "condition" : {
+        "type" : "and",
+        "body" : [
+            {"type": "equalcards",
+            "body": 2},
+            {"type": "equalcards",
+            "body": 2}
+        ]
+    }
+},
+{
+    "name" : "2madhatter",
+    "score" : 2,
+    "condition" : {
+        "type" : "consecutive",
+        "body" : 5
+    }
+},
+{
+    "name" : "1goblin1",
+    "score" : 1,
+    "condition" : {
+        "type": "equalcards",
+        "body": 2}
+},
+{
+    "name" : "1goblin2",
+    "score" : 1,
+    "condition" : {
+        "type": "equalcards",
+        "body": 2}
+},
+{
+    "name" : "1goblin3",
+    "score" : 1,
+    "condition" : {
+        "type": "equalcards",
+        "body": 2}
+},
+{
+    "name" : "1bluehobbit",
+    "score" : 1,
+    "bonus_dia" : 1,
+    "condition" : {
+        "type": "three_which_is",
+        "body": "odd"}
+},
+{
+    "name" : "1redhobbit",
+    "score" : 1,
+    "bonus_dia" : 1,
+    "condition" : {
+        "type": "three_which_is",
+        "body": "even"}
+},
+{
+    "name" : "1pussinboots",
+    "score" : 1,
+    "condition" : {
+        "type": "general",
+        "body": [3,4,5]}
+},
+{
+    "name" : "1fairy1",
+    "score" : 1,
+    "condition" : {
+        "type": "general",
+        "body": [5,6,7]}
+},
+{
+    "name" : "1fairy2",
+    "score" : 1,
+    "condition" : {
+        "type": "general",
+        "body": [5,6,7]}
+},
+{
+    "name" : "1medusa1",
+    "score" : 1,
+    "condition" : {
+        "type": "three_sums_up",
+        "body": 7}
+},
+{
+    "name" : "1medusa2",
+    "score" : 1,
+    "condition" : {
+        "type": "three_sums_up",
+        "body": 7}
+},
+{
+    "name" : "1warrioress",
+    "score" : 1,
+    "bonus_dia" : 1,
+    "condition" : {
+        "type": "general",
+        "body": [3,5,7]}
+},
+{
+    "name" : "1redridinghood",
+    "score" : 1,
+    "condition" : {
+        "type": "general",
+        "body": [4,5,6,7,8]}
+},
+{
+    "name" : "1reaper",
+    "score" : 1,
+    "condition" : {
+        "type": "general",
+        "body": [1,8]}
+},
+{
+    "name" : "1merlin",
+    "score" : 1,
+    "condition" : {
+        "type" : "consecutive",
+        "body" : 3
+    }
+},
+{
+    "name" : "1monkeybat1",
+    "score" : 1,
+    "condition" : {
+        "type" : "any_sums_up",
+        "body" : 10
+    }
+},
+{
+    "name" : "1monkeybat2",
+    "score" : 1,
+    "condition" : {
+        "type" : "any_sums_up",
+        "body" : 10
+    }
+},
+{
+    "name" : "1monkeybat3",
+    "score" : 1,
+    "condition" : {
+        "type" : "any_sums_up",
+        "body" : 10
+    }
+},
+{
+    "name" : "1imp",
+    "score" : 1,
+    "condition" : {
+        "type" : "general",
+        "body" : [3,3,3]
+    }
+},
+{
+    "name" : "1halfling",
+    "score" : 1,
+    "condition" : {
+        "type" : "three_sums_up",
+        "body" : 10
+    }
+},
+{
+    "name" : "1dwarfwarrior1",
+    "score" : 1,
+    "condition" : {
+        "type" : "general",
+        "body" : [1,1]
+    }
+},
+{
+    "name" : "1dwarfwarrior2",
+    "score" : 1,
+    "condition" : {
+        "type" : "general",
+        "body" : [2,2]
+    }
+},
+{
+    "name" : "1dwarfwarrior3",
+    "score" : 1,
+    "condition" : {
+        "type" : "general",
+        "body" : [3,3]
+    }
+},
+{
+    "name" : "1dwarfwarrior4",
+    "score" : 1,
+    "condition" : {
+        "type" : "general",
+        "body" : [4,4]
+    }
+},
+{
+    "name" : "1dwarfwarrior5",
+    "score" : 1,
+    "condition" : {
+        "type" : "general",
+        "body" : [5,5]
+    }
+},
+{
+    "name" : "1dwarfwarrior6",
+    "score" : 1,
+    "condition" : {
+        "type" : "general",
+        "body" : [6,6]
+    }
+},
+{
+    "name" : "1dwarfwarrior7",
+    "score" : 1,
+    "condition" : {
+        "type" : "general",
+        "body" : [7,7]
+    }
+},
+{
+    "name" : "1unicorn",
+    "score" : 1,
+    "bonus_dia" : 2,
+    "condition" : {
+        "type" : "general",
+        "body" : [1,2,3,4]
+    }
+},
+{
+    "name" : "0dragon",
+    "score" : 0,
+    "condition" : {
+        "type" : "general",
+        "body" : [1,1,1,1]
+    }
+},
+{
+    "name" : "0phoenix1",
+    "score" : 0,
+    "condition" : {
+        "type" : "general",
+        "body" : [1,2]
+    }
+},
+{
+    "name" : "0phoenix2",
+    "score" : 0,
+    "condition" : {
+        "type" : "general",
+        "body" : [1,2]
+    }
+},
+{
+    "name" : "0snowwhite",
+    "score" : 0,
+    "bonus_dia" : 1,
+    "condition" : {
+        "type" : "general",
+        "body" : [2]
+    }
+}
 ]
